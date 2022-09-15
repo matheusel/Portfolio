@@ -5,13 +5,12 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(#F2C744, #D9415D);
+    background-size:cover;
+    background-position:center;
   }
 
 body{
-    background-image: linear-gradient(#F2C744, #D9415D);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
     user-select: none;
     text-align: center;
     justify-content: center;
@@ -98,4 +97,23 @@ input {
 
 input:hover {
     width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    selection, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    navi li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer p {
+        display: none;
+    }
 }
