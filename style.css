@@ -89,13 +89,16 @@ a {
 }
 
 input {
-    margin-top: 10vh;
-    padding: 10px;
+    background-color: transparent;
+    margin-top: 12vh;
+    padding: 7px;
     box-sizing: border-box;
-    border-radius: 15px;
+    width: 150px;
+    border-radius: 30px;
+    transition: all 0.5s;
 }
 
-input:hover {
+input:focus {
     width: 300px;
 }
 
