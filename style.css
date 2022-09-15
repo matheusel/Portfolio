@@ -8,13 +8,10 @@ html {
   }
 
 body{
-    
     background-image: linear-gradient(#F2C744, #D9415D);
     background-repeat: no-repeat;
-    background-position: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    background-size:cover;
+    background-position:center;
     user-select: none;
     text-align: center;
     justify-content: center;
